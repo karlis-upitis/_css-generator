@@ -1,0 +1,41 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline; }
+ 
+/* HTML5 display-role reset for older browsers */
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block; }
+ 
+body {
+line-height: 1; }
+ 
+ol, ul {
+list-style: none; }
+ 
+blockquote, q {
+quotes: none; }
+ 
+blockquote {
+&:before, &:after {
+content: '';
+content: none; } }
+ 
+q {
+&:before, &:after {
+content: '';
+content: none; } }
+ 
+table {
+border-collapse: collapse;
+border-spacing: 0; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2V0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0VBR0U7O0FBRUY7QUFDQSxVQUFVO0FBQ1YsV0FBVztBQUNYLFVBQVU7QUFDVixnQkFBZ0I7QUFDaEIsY0FBYztBQUNkLHlCQUF5QixFQUFFOztBQUUzQixpREFBaUQ7O0FBRWpEO0FBQ0EsZUFBZSxFQUFFOztBQUVqQjtBQUNBLGVBQWUsRUFBRTs7QUFFakI7QUFDQSxpQkFBaUIsRUFBRTs7QUFFbkI7QUFDQSxhQUFhLEVBQUU7O0FBRWY7QUFDQTtBQUNBLFlBQVk7QUFDWixjQUFjLEVBQUUsRUFBRTs7QUFFbEI7QUFDQTtBQUNBLFlBQVk7QUFDWixjQUFjLEVBQUUsRUFBRTs7QUFFbEI7QUFDQSwwQkFBMEI7QUFDMUIsa0JBQWtCLEVBQUUiLCJmaWxlIjoicmVzZXQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogaHR0cDovL21leWVyd2ViLmNvbS9lcmljL3Rvb2xzL2Nzcy9yZXNldC9cclxudjIuMCB8IDIwMTEwMTI2XHJcbkxpY2Vuc2U6IG5vbmUgKHB1YmxpYyBkb21haW4pXHJcbiovXHJcbiBcclxuaHRtbCwgYm9keSwgZGl2LCBzcGFuLCBhcHBsZXQsIG9iamVjdCwgaWZyYW1lLCBoMSwgaDIsIGgzLCBoNCwgaDUsIGg2LCBwLCBibG9ja3F1b3RlLCBwcmUsIGEsIGFiYnIsIGFjcm9ueW0sIGFkZHJlc3MsIGJpZywgY2l0ZSwgY29kZSwgZGVsLCBkZm4sIGVtLCBpbWcsIGlucywga2JkLCBxLCBzLCBzYW1wLCBzbWFsbCwgc3RyaWtlLCBzdHJvbmcsIHN1Yiwgc3VwLCB0dCwgdmFyLCBiLCB1LCBpLCBjZW50ZXIsIGRsLCBkdCwgZGQsIG9sLCB1bCwgbGksIGZpZWxkc2V0LCBmb3JtLCBsYWJlbCwgbGVnZW5kLCB0YWJsZSwgY2FwdGlvbiwgdGJvZHksIHRmb290LCB0aGVhZCwgdHIsIHRoLCB0ZCwgYXJ0aWNsZSwgYXNpZGUsIGNhbnZhcywgZGV0YWlscywgZW1iZWQsIGZpZ3VyZSwgZmlnY2FwdGlvbiwgZm9vdGVyLCBoZWFkZXIsIGhncm91cCwgbWVudSwgbmF2LCBvdXRwdXQsIHJ1YnksIHNlY3Rpb24sIHN1bW1hcnksIHRpbWUsIG1hcmssIGF1ZGlvLCB2aWRlbyB7XHJcbm1hcmdpbjogMDtcclxucGFkZGluZzogMDtcclxuYm9yZGVyOiAwO1xyXG5mb250LXNpemU6IDEwMCU7XHJcbmZvbnQ6IGluaGVyaXQ7XHJcbnZlcnRpY2FsLWFsaWduOiBiYXNlbGluZTsgfVxyXG4gXHJcbi8qIEhUTUw1IGRpc3BsYXktcm9sZSByZXNldCBmb3Igb2xkZXIgYnJvd3NlcnMgKi9cclxuIFxyXG5hcnRpY2xlLCBhc2lkZSwgZGV0YWlscywgZmlnY2FwdGlvbiwgZmlndXJlLCBmb290ZXIsIGhlYWRlciwgaGdyb3VwLCBtZW51LCBuYXYsIHNlY3Rpb24ge1xyXG5kaXNwbGF5OiBibG9jazsgfVxyXG4gXHJcbmJvZHkge1xyXG5saW5lLWhlaWdodDogMTsgfVxyXG4gXHJcbm9sLCB1bCB7XHJcbmxpc3Qtc3R5bGU6IG5vbmU7IH1cclxuIFxyXG5ibG9ja3F1b3RlLCBxIHtcclxucXVvdGVzOiBub25lOyB9XHJcbiBcclxuYmxvY2txdW90ZSB7XHJcbiY6YmVmb3JlLCAmOmFmdGVyIHtcclxuY29udGVudDogJyc7XHJcbmNvbnRlbnQ6IG5vbmU7IH0gfVxyXG4gXHJcbnEge1xyXG4mOmJlZm9yZSwgJjphZnRlciB7XHJcbmNvbnRlbnQ6ICcnO1xyXG5jb250ZW50OiBub25lOyB9IH1cclxuIFxyXG50YWJsZSB7XHJcbmJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XHJcbmJvcmRlci1zcGFjaW5nOiAwOyB9Il19 */
